@@ -1,4 +1,4 @@
-# resnet+swin 重复堆叠
+# resnet+swin   未优化，效果不好
 from components import *
 class UNet(nn.Module):
     def __init__(self,base_channel=32):
